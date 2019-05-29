@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	margin-left: 6%;
-	margin-right: 6%;
-	margin-top: 4%;
-	margin-bottom: 4%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
 .navigation {
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 10px;
 
 }
 
@@ -188,4 +188,76 @@ footer {
   margin-left: auto;
   margin-right: auto;
 	margin-bottom: 50px;
+}
+
+/* Services.HTML-specific CSS below */
+
+.services {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+
+}
+
+.larger-subheader{
+	font-size: 175%;
+}
+
+.sections-container {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+		width: auto;
+		height: 900px;
+}
+
+.child-item {
+	height: 240px;
+	width: 400px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 5px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-evenly;
+}
+
+
+.bottom-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: auto;
+}
+
+.button-small {
+	background: white;
+	color: black;
+	padding: 6px 20px;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+.button-small:hover {
+background: black;
+color: white;
+}
+
+.facts-container {
+	height: 300px;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
