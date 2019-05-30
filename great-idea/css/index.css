@@ -79,16 +79,13 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
-
-}
-
-nav a {
-	margin: 25px;
+	width: auto;
 }
 
 .link {
 	color: lightgray;
 	text-decoration: none;
+	margin: 25px;
 }
 
 .link:hover {
@@ -165,6 +162,10 @@ header {
 	margin-right: 10px;
 }
 
+.middle-img {
+	width: 100%;
+}
+
 .bottom-content {
 	display: flex;
 	flex-direction: row;
@@ -193,6 +194,10 @@ footer {
 }
 
 /* Services.HTML-specific CSS below */
+
+.services-header-img {
+	width: 100%;
+}
 
 .services {
 	padding-top: 30px;
@@ -270,4 +275,12 @@ color: white;
 ul {
 	list-style-type: square;
 	list-style-position: inside;
+}
+
+.svc-info-img {
+	width: 48%;
+}
+
+.services-info-img {
+	width: 100%;
 }
