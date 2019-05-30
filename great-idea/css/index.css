@@ -248,19 +248,8 @@ color: white;
 
 
 .bottom-container {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	border-top: 2px solid black;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: auto;
-}
-
-.bottom-container {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	border-top: 2px solid black;
 	display: flex;
 	flex-direction: row;
